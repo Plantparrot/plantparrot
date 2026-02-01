@@ -5,15 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PlantParrot | Terrarios Artesanales</title>
     <style>
-        :root { --verde: #2d4a3e; --naranja: #e67e22; --crema: #f9fbf9; }
-        body { font-family: 'Segoe UI', sans-serif; margin: 0; background: var(--crema); color: #333; }
-        nav { background: var(--verde); padding: 1rem; text-align: center; }
-        nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
+        :root { --verde: #2d4a3e; --naranja: #e67e22; --crema: #f9fbf9; --texto: #333; }
+        
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; background: var(--crema); color: var(--texto); }
+        
+        /* Navegación idéntica a las otras páginas */
+        nav { 
+            background: var(--verde); 
+            padding: 1rem; 
+            text-align: center; 
+            position: sticky; 
+            top: 0; 
+            z-index: 1000; 
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; transition: color 0.3s; }
         nav a:hover { color: var(--naranja); }
-        .hero { text-align: center; padding: 50px 20px; background: white; }
-        .hero h1 { color: var(--verde); font-size: 2.5rem; }
-        .btn { background: var(--naranja); color: white; padding: 12px 25px; text-decoration: none; border-radius: 25px; display: inline-block; margin-top: 20px; }
-        .content { max-width: 800px; margin: 20px auto; padding: 20px; line-height: 1.6; }
+
+        /* Sección Principal mejorada */
+        .hero { 
+            text-align: center; 
+            padding: 80px 20px; 
+            background: white; 
+            border-bottom: 5px solid var(--crema);
+        }
+        .hero h1 { color: var(--verde); font-size: 3rem; margin: 0; }
+        .hero p { font-size: 1.2rem; color: #666; max-width: 600px; margin: 20px auto; }
+        
+        .btn-principal { 
+            background: var(--naranja); 
+            color: white; 
+            padding: 15px 35px; 
+            text-decoration: none; 
+            border-radius: 50px; 
+            display: inline-block; 
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-top: 10px;
+            transition: transform 0.3s;
+        }
+        .btn-principal:hover { transform: scale(1.05); }
+
+        .content { max-width: 800px; margin: 40px auto; padding: 20px; text-align: center; line-height: 1.8; }
+        
+        /* Imagen de ejemplo para el inicio */
+        .img-inicio { 
+            width: 100%; 
+            max-width: 600px; 
+            border-radius: 20px; 
+            margin-top: 40px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
     </style>
 </head>
 <body>
@@ -23,15 +65,23 @@
         <a href="cuidados.html">Cuidados</a>
         <a href="contacto.html">Contacto</a>
     </nav>
+
     <div class="hero">
-        <h1>🦜 PlantParrot</h1>
-        <p>Ecosistemas en miniatura para llenar tu hogar de vida.</p>
-        <a href="cuidados.html" class="btn">Aprender a cuidar mi terrario</a>
+        <span style="font-size: 4rem;">🦜</span>
+        <h1>PlantParrot</h1>
+        <p>Ecosistemas en miniatura diseñados para llevar la calma de la naturaleza a tu espacio de trabajo u hogar.</p>
+        <a href="productos.html" class="btn-principal">Explorar Catálogo</a>
     </div>
+
     <div class="content">
         <h2>Bienvenidos a nuestro bosque</h2>
-        <p>En PlantParrot creamos terrarios únicos, diseñados para ser sostenibles y fáciles de mantener. Cada pieza es una obra de arte viva.</p>
+        <p>Cada terrario de <strong>PlantParrot</strong> es una pieza única y artesanal. Utilizamos cristales reciclados y plantas seleccionadas para crear mundos autosostenibles que apenas requieren mantenimiento.</p>
+        
+        <img src="img/terrario_medida.png" alt="Terrario PlantParrot" class="img-inicio">
     </div>
-</body>
 
+    <footer style="text-align: center; padding: 40px; color: #888;">
+        © 2026 PlantParrot - Terrarios con alma
+    </footer>
+</body>
 </html>
