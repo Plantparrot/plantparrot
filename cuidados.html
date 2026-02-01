@@ -21,6 +21,32 @@
             padding: 0;
         }
 
+        /* --- Estilos del Menú de Navegación --- */
+        nav {
+            background-color: var(--verde-oscuro);
+            padding: 15px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 15px;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--naranja);
+        }
+
+        /* -------------------------------------- */
+
         .container {
             max-width: 600px;
             margin: 20px auto;
@@ -69,6 +95,10 @@
             color: var(--verde-oscuro);
         }
 
+        strong_contrast {
+            color: var(--verde-claro);
+        }
+
         .tips-box {
             background-color: var(--verde-oscuro);
             color: white;
@@ -94,6 +124,12 @@
     </style>
 </head>
 <body>
+
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="cuidados.html">Cuidados</a>
+    <a href="contacto.html">Contacto</a>
+</nav>
 
 <div class="container">
     <header>
@@ -128,9 +164,9 @@
 
     <div class="tips-box">
         <h3>💡 Tips de Oro de PlantParrot</h3>
-        <p>• <strong>Limpieza:</strong> Retira hojas negras o moho con pinzas de inmediato.</p>
-        <p>• <strong>Poda:</strong> Corta las puntas si tocan el techo para mantener la forma.</p>
-        <p>• <strong>Estabilidad:</strong> No lo muevas mucho, a las plantas les gusta su sitio.</p>
+        <p>• <strong_contrast>Limpieza:</strong_contrast> Retira hojas negras o moho con pinzas de inmediato.</p>
+        <p>• <strong_contrast>Poda:</strong_contrast> Corta las puntas si tocan el techo para mantener la forma.</p>
+        <p>• <strong_contrast>Estabilidad:</strong_contrast> No lo muevas mucho, a las plantas les gusta su sitio.</p>
     </div>
 
     <footer>
