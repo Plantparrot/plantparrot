@@ -11,14 +11,14 @@ PlantParrot nace de la pasión por la naturaleza y el diseño artesanal. Creamos
 
 ## ✨ Características Principales
 * **100% Artesanal:** Cada terrario es una pieza única diseñada a mano.
-* **Sostenibilidad:** Utilizamos cristales reciclados y plantas de alta calidad como *Ficus Ginseng* y *Fittonia*.
+* **Sostenibilidad:** Utilizamos plantas de alta calidad como *Ficus Ginseng* y *Fittonia*.
 * **Bajo Mantenimiento:** Gracias al ciclo del agua cerrado, solo requieren riego ocasional.
 * **Diseños a Medida:** Creamos proyectos personalizados según el recipiente o espacio del cliente.
 
 ---
 
 ## 🛍️ Nuestro Catálogo
-Puedes ver nuestros productos detallados en la sección de [Productos](https://tu-usuario.github.io/tu-repo/productos.html):
+Puedes ver nuestros productos detallados en la sección de [Productos](https://plantparrot.github.io/plantparrot/productos.html):
 1. **Terrario Pequeño:** El toque verde perfecto para tu escritorio.
 2. **Terrario Grande:** Un ecosistema frondoso y maduro.
 3. **Proyectos a Medida:** Diseños exclusivos bajo pedido.
@@ -31,14 +31,14 @@ Si ya tienes un PlantParrot, recuerda los tres pilares básicos:
 2. **Agua:** Solo cuando la tierra pierda humedad o la condensación desaparezca.
 3. **Control:** Ventilar si el cristal presenta gotas de agua muy grandes.
 
-*Consulta la [guía completa aquí](https://tu-usuario.github.io/tu-repo/cuidados.html).*
+*Consulta la [guía completa aquí](https://plantparrot.github.io/plantparrot/productos.html)*
 
 ---
 
 ## 📧 Contacto y Pedidos
 ¿Tienes alguna duda o quieres encargar un terrario personalizado?
 * **Email:** [plantparrot.info@gmail.com](mailto:plantparrot.info@gmail.com)
-* **Web:** [Visita nuestra página oficial](https://tu-usuario.github.io/tu-repo/)
+* **Web:** [Visita nuestra página oficial](https://plantparrot.github.io/plantparrot/)
 
 ---
 
