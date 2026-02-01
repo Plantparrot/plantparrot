@@ -31,7 +31,7 @@ Si ya tienes un PlantParrot, recuerda los tres pilares básicos:
 2. **Agua:** Solo cuando la tierra pierda humedad o la condensación desaparezca.
 3. **Control:** Ventilar si el cristal presenta gotas de agua muy grandes.
 
-*Consulta la [guía completa aquí](https://plantparrot.github.io/plantparrot/productos.html)*
+*Consulta la [guía completa aquí](https://plantparrot.github.io/plantparrot/cuidados.html)*
 
 ---
 
